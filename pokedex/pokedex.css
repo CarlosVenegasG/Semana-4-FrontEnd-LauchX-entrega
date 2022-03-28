@@ -1,0 +1,217 @@
+body{
+
+    /* Ubicación de la imagen */
+    background-image: url(fondo.jpeg);
+/* Para dejar la imagen de fondo centrada, vertical y
+horizontalmente */
+    background-position: center center;
+/* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+/* Se muestra un color de fondo mientras se está cargando la imagen
+de fondo o si hay problemas para cargarla */
+    background-color: dimgray;
+
+
+}
+
+.pokedex{
+    /* Ubicación de la imagen */
+    background-image: url(pokedex.png);
+    height: 547px;
+    width: 803;
+/* Para dejar la imagen de fondo centrada, vertical y
+horizontalmente */
+    background-position: center center;
+/* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: contain;
+/* Se muestra un color de fondo mientras se está cargando la imagen
+de fondo o si hay problemas para cargarla */   
+}
+
+/*
+h1{
+    text-align: center;
+    color: darkgoldenrod;
+}
+input{
+    align-self: center;
+    
+}
+button{
+    background-color:olivedrab;
+    text-align:center;
+    vertical-align: middle;
+  transparent;
+    
+    height: 100px;
+    width: 200px;
+}
+.pokedex img{
+    vertical-align: middle;
+    position: sticky;
+    top: 215px; ajustar los valores para mover la imagen
+    left: 770px;
+}
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.general{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    background-color: red;
+    border-radius: 15%;
+
+    /*background-color: yellow;*/
+
+}
+
+.titulo{
+    
+    width: 600px;
+    height: 50px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+
+    /*background-color: yellow;*/
+}
+
+.circulo1{
+    display: flex;
+    justify-content: flex-end;
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: chartreuse;
+    background: #5cb85c;
+    /*background-color: yellow;*/
+}
+
+.circulo2{
+    display: flex;
+    justify-content: flex-end;
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: chartreuse;
+    background: blue;
+    /*background-color: yellow;*/
+}
+
+.circulo3{
+    display: flex;
+    justify-content: flex-end;
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: chartreuse;
+    background: yellow;
+    /*background-color: yellow;*/
+}
+.circulo4{
+    display: flex;
+    justify-content: flex-end;
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: chartreuse;
+    background: transparent;
+    /*background-color: yellow;*/
+}
+
+.espacio{
+    margin: auto;
+    width: 600px;
+    height: 25px;
+    text-align: center;
+    color: white;
+}
+
+.areapantalla{
+    margin: auto;
+    width: 450px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px solid black;
+    background-color:yellowgreen;
+    border-radius: 4%;
+    align-items: center;
+}
+.areapantalla input{
+    background-color:yellowgreen;
+    font: 1em italic;
+}
+
+.areapantalla img{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+}
+
+
+
+.datos{
+    text-align: center;
+}
+
+.espacio2{
+    margin: auto;
+    width: 600px;
+    height: 25px;
+    text-align: center;
+    background-color: black;
+}
+
+.boton{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 75px;
+}
+
+.boton button{
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+}
+
+
+
+/*
+display: flex;
+    width: 300px;
+    height: 200px;
+    justify-content: space-around;
+    background-color: green;*/

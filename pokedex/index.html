@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pokedex LaunchX</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./pokedex.css'>
+    
+</head>
+<body>
+    <h1 style="color: yellowgreen; text-align: center;">Pokédex</h1> 
+    <div class = "general">
+        <div class="titulo">
+            <div class="circulo1"></div>
+            <div class="circulo2"></div>
+            <div class="circulo3"></div>
+            <div class="circulo4"></div>     
+        </div>
+        <div class="espacio">
+            <p>Hecha por el profesor Oak</p>
+        </div>
+        <div class = "areapantalla">
+            <input type = "text" placeholder = " Ingresa Nombre o número" id="pokeName"><br>
+            <label id="pokeType">Tipo de Pokémon</label>
+            <img src="./pokeball.png" id="pokeImg" alt ="Pokemon" width="100px"><br>
+            <div class="datos">
+                <label id="pokeId"></label>
+                <label id="Nombre"></label>
+                <label id="hp"></label>
+                <label id="attack"></label>
+                <label id="defense"></label>
+                <label id="special-attack"></label>
+                <label id="special-defense"></label>
+                <label id="speed"></label>
+            </div>
+        </div>
+        <div class="espacio2"></div>
+        <div class = boton>
+            <button onclick="fetchPokemon()">Buscar</button>
+        </div>
+    </div>
+    <div class ="segundaPantalla">
+    </div>
+
+
+
+    
+
+
+    
+    
+    
+    <footer><script src='./pokedex.js'></script></footer>
+</body>
+</html>
